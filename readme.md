@@ -1,9 +1,14 @@
-# WebVPN Converter - For STU
+# WebVPN Converter - For STU 免流上网
 
-由于在外科研人员需访问众多不同的数据库，但是webVPN的请求连接经过加密，访问其他数据库需从图书馆查找，极其不便。为此开发了一个简单的浏览器插件，可以实现一键通过VPN访问网页。
+- 一键通过VPN访问网页，实现校外访问校内资源。
+- ~~单纯地想免流看B站 4K视频~~
+
+## 免流原理
+校园网内网不计费，webvpn处于学校内网中，将链接解析成webvpn下的访问后，即可实现http的免流
 
 本插件只适用于STU
 
+思路：[tiosa/touda_wifi_v2](https://gitee.com/tiosa/touda_wifi_v2)
 上游项目 [dlutor/dlutvpn](https://github.com/dlutor/dlutvpn)，[Cloudac7/webvpn-converter](https://github.com/Cloudac7/webvpn-converter)
 
 ## 安装
