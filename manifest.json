@@ -1,0 +1,31 @@
+{
+    "name": "WebVpn Converter For STU",
+    "version": "1.0.0",
+    "description": "将当前浏览页面转换为WebVPN网址以通过汕大WebVPN访问，",
+    "manifest_version": 3,
+    "permissions": [
+        "contextMenus",
+        "tabs",
+        "storage"
+    ],
+    "background": {
+        "service_worker": "js/background.js",
+        "type": "module"
+    },
+    "action": {
+        "default_title": "点击使用WebVPN访问本页",
+        "default_icon": {
+            "16": "img/icon16.png",
+            "32": "img/icon32.png",
+            "48": "img/icon48.png",
+            "128": "img/icon128.png"
+        }
+    },
+    "icons": {
+        "16": "img/icon16.png",
+        "32": "img/icon32.png",
+        "48": "img/icon48.png",
+        "128": "img/icon128.png"
+    }
+}
+	
